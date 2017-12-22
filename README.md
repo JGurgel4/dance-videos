@@ -1,4 +1,9 @@
-# README
+# Dance Videos
+
+This is a practice project, in which we will:
+* crawl websites with dance video
+* import the video metadata into a database
+* serve a website that will let you search the videos
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
