@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "./word_stuff"
+
+string = ARGV[0]
+puts "words: #{WordStuff.word_count(string)}"
+puts "chars: #{WordStuff.char_count(string)}"
