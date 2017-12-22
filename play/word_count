@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "./word_stuff"
+
+puts WordStuff.word_count(ARGV[0])

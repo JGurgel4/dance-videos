@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require "./name"
+
+name = Name.new("Johnna", "Catherine", "Gurgel", "Google")
+
+puts "Full Name: #{name.full_name}"
+
+puts "First Name: #{name.first}"
+puts "Last Name: #{name.last}"
+puts "Middle Name: #{name.middle}"
+puts "Maiden Name: #{name.maiden}"
+
+puts "Name length: #{name.size}"
+puts "Name words: #{name.word_count}"
